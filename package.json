@@ -1,0 +1,45 @@
+{
+  "name": "@bunowaveltd/recloud",
+  "version": "1.0.0",
+  "description": "ReCloud Turnstile bot protection: server verification, browser widget helpers and a React component.",
+  "type": "module",
+  "license": "MIT",
+  "sideEffects": false,
+  "engines": {
+    "node": ">=18"
+  },
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "default": "./index.js"
+    },
+    "./client": {
+      "types": "./client.d.ts",
+      "default": "./client.js"
+    },
+    "./react": {
+      "types": "./react.d.ts",
+      "default": "./react.js"
+    },
+    "./package.json": "./package.json"
+  },
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "client.js",
+    "client.d.ts",
+    "react.js",
+    "react.d.ts",
+    "README.md",
+    "LICENSE"
+  ],
+  "peerDependencies": {
+    "react": ">=17"
+  },
+  "peerDependenciesMeta": {
+    "react": {
+      "optional": true
+    }
+  },
+  "keywords": ["captcha", "bot-protection", "turnstile", "recloud", "react", "nextjs", "express"]
+}
